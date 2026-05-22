@@ -1,0 +1,25 @@
+{
+  "name": "Coffee OS",
+  "short_name": "Coffee OS",
+  "description": "A calming espresso logging app for daily dial-in notes.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f6efe5",
+  "theme_color": "#6f432d",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/public/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/public/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

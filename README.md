@@ -13,7 +13,14 @@ Then open `http://localhost:5173`.
 ## Deploy
 
 This is a static React app. Deploy the folder to Vercel as-is; `index.html`,
-`src/app.js`, and `src/styles.css` are the app.
+`src/app.js`, `src/styles.css`, `manifest.webmanifest`, and `public/icons/`
+are the app.
+
+## iPhone
+
+Open the deployed URL in Safari, tap Share, then Add to Home Screen. Coffee OS
+includes a web app manifest and Apple touch icon so it opens more like a small
+standalone app.
 
 ## Data
 
